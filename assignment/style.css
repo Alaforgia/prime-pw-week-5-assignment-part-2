@@ -5,8 +5,12 @@ header {
 }
 main{
   background-color: lightgray;
+  background-size: auto;
+  /* Can't seem to figure out how to shorten the lightgray color to fit just the text in 'main'. */
 }
 body{
   background-image: url("record.png");
   background-repeat: round;
+  margin: 0px;
+  padding: 1em;
 }
